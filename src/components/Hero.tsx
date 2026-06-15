@@ -173,7 +173,7 @@ PROJECTS:\n
                 {/* Visual Glass elements */}
                 <div className="w-full h-[88%] rounded-xl overflow-hidden relative">
                   <img
-                    src="/src/assets/images/developer_avatar_1781326677501.jpg"
+                    src="/src/assets/images/Aman.jpeg"
                     alt="Aman Kumar Portrait"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
