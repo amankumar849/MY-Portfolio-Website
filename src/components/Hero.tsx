@@ -1,6 +1,7 @@
 import { ArrowUpRight, Code2, Download, Eye, FileText, Sparkles, Terminal } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useState } from 'react';
+import Aman from "../assets/images/Aman.jpeg";
 
 interface HeroProps {
   onNavigate: (sectionId: string) => void;
@@ -173,7 +174,7 @@ PROJECTS:\n
                 {/* Visual Glass elements */}
                 <div className="w-full h-[88%] rounded-xl overflow-hidden relative">
                   <img
-                    src="/src/assets/images/Aman.jpeg"
+                    src={Aman}
                     alt="Aman Kumar Portrait"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
